@@ -1,0 +1,5 @@
+# Ignore All
+*
+
+!.gitignore
+# We only add to git our custom modules and the theme folder if need personalizations

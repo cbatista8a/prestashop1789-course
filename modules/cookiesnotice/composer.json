@@ -1,0 +1,34 @@
+{
+  "name": "cbatista8a/cookiesnotice",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "cbatista8a",
+      "email": "carlos.batista@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.48"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cbatista8a\\CookiesNotice\\": "src"
+    },
+    "classmap": [
+      "cookiesnotice.php"
+    ]
+  },
+  "config": {
+    "preferred-install": "stable",
+    "prepend-autoloader": false
+  },
+  "type": "prestashop-module",
+  "scripts": {
+    "fixer": "./vendor/bin/php-cs-fixer fix --rules=@PSR12,@Symfony ."
+  }
+}
